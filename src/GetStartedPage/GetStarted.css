@@ -1,0 +1,50 @@
+
+
+.heading-lines{
+    width:60px;
+    background: #FBD784;
+    height:1px;
+    position: absolute;
+   margin-top:1%;
+  
+}
+.get-started-heading-holder{
+padding-left:15%;
+padding-top:10%;
+
+
+   
+}
+.get-started-heading{
+    display: flex;
+    align-items: stretch;
+    gap:12%;
+    
+
+}
+.page-number{
+    font-size: 6em;
+    color: #FFFFFF;
+    z-index: 1;
+    opacity: 0.1;
+    position: absolute;
+  top:3%;
+  left:5%;
+  font-weight:700;
+}
+.get-started-content{
+  
+}
+.img-holder img{
+
+    width:60%; 
+    padding: 10px;
+    padding-top:10%;
+}
+.Learn-More{
+    color: #FBD784;
+
+}
+.get-started-content-wapper{
+    position: relative;
+}
