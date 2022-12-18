@@ -48,3 +48,18 @@ padding-top:10%;
 .get-started-content-wapper{
     position: relative;
 }
+
+@media only screen and (min-width: 1400px) {
+    .page-number{
+      
+     
+       
+      top:8%;
+    
+    }
+    .get-started-heading-holder{
+        padding-left:10%;
+        padding-top:10%;
+        
+        }
+}

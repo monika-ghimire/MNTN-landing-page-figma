@@ -46,3 +46,13 @@ padding-top:10%;
 .get-started-content-wapper{
     position: relative;
 }
+@media only screen and (min-width: 1390px) {
+    .page-number-hiking{
+      
+      top:10%;
+      position: absolute;
+      left:48%;
+    
+    }
+
+}
