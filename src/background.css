@@ -1,0 +1,24 @@
+
+.background-imgs-wapper img{
+    width: 100%;
+    
+    
+}
+.background-imgs-wapper{
+   position: relative;
+}
+
+.MG{
+position: absolute;
+top:42%;
+}
+.VG{
+    position: absolute;
+    top:95%;
+}
+
+.home-componet{
+    position: absolute;
+    width:100%;
+
+}

@@ -1,4 +1,10 @@
 *{
+  font-weight: 600;
+}
+.content-conteiner-holder{
   background: #0B1D26;
   color: white;
+  margin-top:25%;
+  
+
 }
