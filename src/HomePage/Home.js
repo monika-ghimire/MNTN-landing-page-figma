@@ -50,7 +50,7 @@ export default function Home() {
                                  <span> <div className='heading-lines-hiking'></div></span><p >A Hiking guide
                                  </p>
                              </div>
-                        <h2>Be prepared for the
+                        <h2 >Be prepared for the
                             <br/> Mountains and beyond!</h2>
                             <p>Scrool down</p>
                     </div>
