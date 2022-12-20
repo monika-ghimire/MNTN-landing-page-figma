@@ -1,23 +1,33 @@
 import React from 'react'
-import './GetStarted.css'
-import arrow from '../assest/aerrow.jpg'
-
-export default function GetStarted(props) {
+import './Hiking.css'
+import second from '../../assest/second.png'
+import arrow from '../../assest/aerrow.jpg'
+export default function Hiking() {
   return (
     <div className='get-started-content-wapper'>
         <div className='get-started-content'>
             <div className='row'>
+                
+                <div className='col-md-5'>
+                    <div className='img-holder-hiking'>
+                    <img src={second}/>
+                    </div>
+                    
+                </div>
                 <div className='col-md-7'>
-                    <h1 className='page-number'>{props.pageNumber}</h1>
+                    <h1 className='page-number-hiking'>02</h1>
 
                     <div className='get-started-heading-holder'>   
                                 <div className='get-started-heading' >
-                                 <span> <div className='heading-lines'></div></span><p >{props.heading}</p>
+                                 <span> <div className='heading-lines'></div></span><p >Hiking Essentials
+                                 </p>
                              </div>
                             
                         <div>
-                            <h2 className='title'>{props.title}
-                            <br/>{props.titleEnd}</h2>
+                            <h2 className='title'>
+                            What level of hiker
+                                    <br/> are you?
+                            </h2>
                             <p>
                             Determining what level of hiker you are can be an important tool when 
                             <br/>planning future hikes. This hiking level guide will help you plan 
@@ -27,15 +37,9 @@ export default function GetStarted(props) {
                             </p>
                         </div>
                         <div>
-                            <p className='Learn-More '>Learn More <span><img src={arrow}/></span> </p>
+                            <p className='Learn-More '>Learn More <span><img src={arrow}/></span>  </p>
                         </div>
                     </div>
-                </div>
-                <div className='col-md-5'>
-                    <div className='img-holder'>
-                    <img src={props.imgs}/>
-                    </div>
-                    
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import HG from "./assest/HG.png";
-import MG from "./assest/MG.png";
-import VG from "./assest/VG.png";
+import HG from "../../assest/HG.png";
+import MG from "../../assest/MG.png";
+import VG from "../../assest/VG.png";
 
 import "./background.css";
-import Home from "./HomePage/Home";
+import Home from "../HomePage/Home";
 export default function backGround() {
   return (
     <>

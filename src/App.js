@@ -1,10 +1,10 @@
 import "./App.css";
-import GetStarted from "./GetStartedPage/GetStarted";
+import GetStarted from "./pages/GetStartedPage/GetStarted";
 import frist from "./assest/frist.png";
 import third from "./assest/third.png";
-import Hiking from "./HikingGears/Hiking";
-import Footer from "./Footer/Footer";
-import BackGround from "./BackGroud";
+import Hiking from "./pages/HikingGears/Hiking";
+import Footer from "./pages/Footer/Footer";
+import BackGround from "./pages/background/BackGroud";
 
 
 function App() {

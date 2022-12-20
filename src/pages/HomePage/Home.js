@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../assest/Logo.svg";
-import cart from "../assest/cart.png";
-import instagram from '../assest/instagram.png'
-import twitter from '../assest/twitter.png';
+import Logo from "../../assest/Logo.svg";
+import cart from "../../assest/cart.png";
+import instagram from '../../assest/instagram.png'
+import twitter from '../../assest/twitter.png';
 import "./home.css";
 export default function Home() {
   return (
