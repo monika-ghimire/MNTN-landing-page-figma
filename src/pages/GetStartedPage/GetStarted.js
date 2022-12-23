@@ -12,7 +12,7 @@ export default function GetStarted(props) {
 
                     <div className='get-started-heading-holder'>   
                                 <div className='get-started-heading' >
-                                 <span> <div className='heading-lines'></div></span><p >{props.heading}</p>
+                                 <span> <div className='heading-lines-get'></div></span><p className='get-started-headin'>{props.heading}</p>
                              </div>
                             
                         <div>

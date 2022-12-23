@@ -8,13 +8,13 @@ export default function Hiking() {
         <div className='get-started-content'>
             <div className='row'>
                 
-                <div className='col-md-5'>
+                <div className='col-md-5 img-holder-for-top'>
                     <div className='img-holder-hiking'>
                     <img src={second}/>
                     </div>
                     
                 </div>
-                <div className='col-md-7'>
+                <div className='col-md-7 text-holder'>
                     <h1 className='page-number-hiking'>02</h1>
 
                     <div className='get-started-heading-holder'>   

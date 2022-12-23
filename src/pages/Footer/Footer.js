@@ -8,8 +8,8 @@ export default function Footer() {
         <div>
             <div className='row'>
                 <div className='col-md-6'>
-                    <h2><img src={LogoText}/></h2>
-                    <p>
+                    <h2 className='footer-icon'><img src={LogoText}/></h2>
+                    <p className="footer-main-title">
                     Get out there & discover your next
                     <br/> slope, mountain & destination!
                     </p>

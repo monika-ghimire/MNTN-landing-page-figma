@@ -5,6 +5,11 @@ import instagram from '../../assest/instagram.png'
 import twitter from '../../assest/twitter.png';
 import "./home.css";
 export default function Home() {
+  function myFunction() {
+  //  let nav=document.getElementById('nav-group-holder')
+  //  nav.style.display="block";
+    
+  }
   return (
     <>
       <div className="nav-holder-wapper">
@@ -15,7 +20,13 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="nav-group-holder">
+         
+          <div class="container-menu"  onClick={myFunction} >
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+         </div>
+            <div className="nav-group-holder" id="nav-group-holder">
               <ul>
                 <li>Equipment</li>
                 <li>About Us</li>
@@ -41,18 +52,23 @@ export default function Home() {
                         <p className="follow">Follow</p>
                         <img src={instagram} className='insta'/>
                         <br/>
-                        <img src={twitter}/>
+                        <img src={twitter}    className='twitter'/>
                     </div>
                 </div>
                 <div className='col-md-6'>
                     <div>
                     <div className='get-started-heading-home' >
-                                 <span> <div className='heading-lines-hiking'></div></span><p >A Hiking guide
+                                 <span> <div className='heading-lines-hiking'></div></span>
+                                 <p >A Hiking guide
                                  </p>
                              </div>
-                        <h2 >Be prepared for the
-                            <br/> Mountains and beyond!</h2>
-                            <p>Scrool down</p>
+                             <div className="headin-holder-top">
+                             <h2 className="heADING-font">Be prepared for the
+                            <br/> Mountains and beyond!
+                        </h2>
+                            <p className="heADING-font">Scrool down</p>
+                             </div>
+                       
                     </div>
                 </div>
                 <div className='col-md-2'>
