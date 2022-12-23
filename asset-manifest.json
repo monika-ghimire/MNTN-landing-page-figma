@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MNTN-landing-page-figma/static/css/main.16551975.css",
+    "main.js": "/MNTN-landing-page-figma/static/js/main.10c581ca.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MNTN-landing-page-figma/static/js/787.28cb0dcd.chunk.js",
+    "static/media/MG.png": "/MNTN-landing-page-figma/static/media/MG.3971f26fc389ec5ea1e0.png",
+    "static/media/VG.png": "/MNTN-landing-page-figma/static/media/VG.2132b6301019d58310a3.png",
+    "static/media/HG.png": "/MNTN-landing-page-figma/static/media/HG.008b9b526fd41051939a.png",
+    "static/media/second.png": "/MNTN-landing-page-figma/static/media/second.5d424568b7e36d9ac8ae.png",
+    "static/media/third.png": "/MNTN-landing-page-figma/static/media/third.a3d4af9fce3de7711f52.png",
+    "static/media/frist.png": "/MNTN-landing-page-figma/static/media/frist.29ff1cad223d74634a03.png",
+    "static/media/Logo.svg": "/MNTN-landing-page-figma/static/media/Logo.32425acd48e7b9857787e87aed272092.svg",
+    "index.html": "/MNTN-landing-page-figma/index.html",
+    "main.16551975.css.map": "/MNTN-landing-page-figma/static/css/main.16551975.css.map",
+    "main.10c581ca.js.map": "/MNTN-landing-page-figma/static/js/main.10c581ca.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MNTN-landing-page-figma/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16551975.css",
+    "static/js/main.10c581ca.js"
+  ]
+}
